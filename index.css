@@ -1,0 +1,228 @@
+
+@media (max-width:768px){
+    .category_data{
+        display:flex;
+        flex-direction:column;
+        margin:auto;
+
+    }
+
+    .ecomm_title{
+        display:flex; 
+        flex-direction:row;
+        justify-content: space-between; 
+        margin:auto;
+    }
+
+    .ecomm_detail{
+        display:flex; 
+        flex-direction:row;
+        justify-content: space-between;
+        margin:auto;
+    }
+
+    .cartButton{
+        color:white;
+        background-color:black;
+        width:85vw;
+        padding:10px;
+        border-color: transparent;
+        border-radius: 5px;
+    }
+
+    .tab_button{
+        margin-right:-20px;
+        border-width:0;
+
+        width:100px;
+        padding:10px;
+    }
+
+    .tab_buttonMen{
+        color:white;
+        background-color:black;
+        border-color: transparent;
+        border-radius: 5px;
+        width:100px;
+        padding:10px;
+        margin-right:-20px;
+        border-width:0;
+
+    }
+
+    .tab_button:hover {
+        color:white;
+        background-color:black;
+        border-color: transparent;
+        border-radius: 5px;
+        border-width:0;
+
+    }
+
+    .img_prop{
+        width:85vw;
+        height:90vh;
+    }
+
+    .badgeText{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 5px;
+        border-radius:5px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .category_data{
+        display:flex;
+        flex-direction:row;
+        overflow-x: visible;
+        margin:auto;
+
+    
+    }
+
+    .ecomm_title{
+        display:flex; 
+        flex-direction:row;
+        justify-content: space-between; 
+        margin:auto;
+    }
+
+    .ecomm_detail{
+        display:flex; 
+        flex-direction:row;
+        justify-content: space-between;
+        margin:auto;
+    }
+
+    .cartButton{
+        color:white;
+        background-color:black;
+        width:45vw;
+        padding:10px;
+        border-color: transparent;
+        border-radius: 5px;
+    }
+
+    .tab_button{
+        margin-right:-20px;
+        border-width:0;
+
+        width:150px;
+        padding:10px;
+    }
+
+    .tab_buttonMen{
+        color:white;
+        background-color:black;
+        border-color: transparent;
+        border-radius: 5px;
+        width:150px;
+        padding:10px;
+        margin-right:-20px;
+        border-width:0;
+
+    }
+
+    .tab_button:hover {
+        color:white;
+        background-color:black;
+        border-color: transparent;
+        border-radius: 5px;
+        border-width:0;
+
+    }
+
+    .img_prop{
+        width:45vw;
+        height:90vh;
+    }
+
+    .badgeText{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 5px;
+        border-radius:5px;
+    }
+
+}
+
+@media (min-width:1024px){
+        
+    .category_data{
+        display:flex;
+        flex-direction:row;
+        margin:auto;
+    }
+
+    .ecomm_title{
+        display:flex; 
+        flex-direction:row;
+        justify-content: space-between; 
+        margin:auto;
+    }
+
+    .ecomm_detail{
+        display:flex; 
+        flex-direction:row;
+        justify-content: space-between;
+        margin:auto;
+    }
+
+    .cartButton{
+        color:white;
+        background-color:black;
+        width:100%;
+        padding:10px;
+        border-color: transparent;
+        border-radius: 5px;
+    }
+
+    .tab_button{
+        margin-right:-20px;
+        border-width:0;
+
+        width:300px;
+        padding:10px;
+    }
+
+    .tab_buttonMen{
+        color:white;
+        background-color:black;
+        border-color: transparent;
+        border-radius: 5px;
+        width:300px;
+        padding:10px;
+        margin-right:-20px;
+        border-width:0;
+
+    }
+
+    .tab_button:hover {
+        color:white;
+        background-color:black;
+        border-color: transparent;
+        border-radius: 5px;
+        border-width:0;
+
+    }
+
+    .img_prop{
+        width:100%;
+        height:65vh;
+    }
+
+    .badgeText{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 5px;
+        border-radius:5px;
+    }
+}
